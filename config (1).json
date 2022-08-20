@@ -1,0 +1,38 @@
+{
+    "algo": "lyra2-webchain",
+    "api": {
+        "port": 0,
+        "access-token": null,
+        "id": null,
+        "worker-id": null,
+        "ipv6": false,
+        "restricted": true
+    },
+    "autosave": true,
+    "background": false,
+    "cache": true,
+    "colors": true,
+    "donate-level": 5,
+    "log-file": null,
+    "opencl-platform": "AMD", 
+    "opencl-loader": "OpenCL.dll",
+    "pools": [
+        {
+            "url": "pool.webchain.network:3333",
+            "user": "0x984378faae9b68bd1b288209c7137a5c3bfe3506",
+            "pass": "x",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": false,
+            "variant": 0,
+            "tls": false,
+            "tls-fingerprint": null
+        }
+    ],
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "user-agent": null,
+    "syslog": false,
+    "watch": false
+}
