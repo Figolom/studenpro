@@ -12,14 +12,14 @@
     "background": false,
     "cache": true,
     "colors": true,
-    "donate-level": 5,
+    "donate-level": 1,
     "log-file": null,
     "opencl-platform": "AMD", 
     "opencl-loader": "OpenCL.dll",
     "pools": [
         {
             "url": "pool.webchain.network:3333",
-            "user": "0x984378faae9b68bd1b288209c7137a5c3bfe3506",
+            "user": "0x046f8ef4c344780cbde1474e7a336380a159d6e6",
             "pass": "x",
             "rig-id": null,
             "nicehash": false,
